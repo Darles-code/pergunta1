@@ -13,7 +13,7 @@
         .message {
             margin-top: 20px;
             font-size: 1.2em;
-            color: red;
+            color: green;
             font-weight: bold;
         }
     </style>
@@ -30,7 +30,7 @@
             var userAnswer = document.getElementById("answer").value.toLowerCase();
 
             if (correctAnswers.includes(userAnswer)) {
-                document.getElementById("message").innerHTML = "Parabéns! Resposta correta!";
+                document.getElementById("message").innerHTML = "Parabéns! Resposta correta! Senha para o próximo desafio: 0905";
             } else {
                 document.getElementById("message").innerHTML = "Tente novamente.";
             }
